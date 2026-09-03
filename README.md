@@ -25,13 +25,31 @@ The objective is to evaluate how different modelling approaches and missing-data
 
 ### Repository Contents
 
-The repository contains:
+The repository contains the following main files:
 
-- Python/Jupyter notebooks implementing the median and KNN imputation approaches and predictive modelling.
-- HTML and PDF versions of the notebooks for code inspection.
-- Team-level training and testing datasets.
-- Target/outcome datasets.
-- Supporting project documentation.
+#### KNN Imputation
+
+- `Predicting The Pitch using KNN imputation.ipynb` – Jupyter Notebook containing the KNN-based missing-data imputation and modelling workflow.
+- `Predicting The Pitch using KNN imputation.html` – HTML version of the KNN notebook for convenient inspection.
+- `Predicting The Pitch using KNN imputation.pdf` – PDF version of the KNN notebook.
+
+#### Median Imputation
+
+- `Predicting The Pitch using Median Imputation.ipynb` – Jupyter Notebook containing the median missing-data imputation and modelling workflow.
+- `Predicting The Pitch using Median Imputation.html` – HTML version of the median-imputation notebook for convenient inspection.
+- `Predicting The Pitch using Median Imputation.pdf` – PDF version of the median-imputation notebook.
+
+#### Datasets
+
+- `train_home_team_statistics_df.csv` – training data containing home-team statistics.
+- `train_away_team_statistics_df.csv` – training data containing away-team statistics.
+- `test_home_team_statistics_df.csv` – testing data containing home-team statistics.
+- `test_away_team_statistics_df.csv` – testing data containing away-team statistics.
+- `Y_train_1rknArQ.csv` – training target data.
+- `Y_train_supp.csv` – supplementary training target data.
+- `Y_test_random_sEE2QeA.csv` – testing target data.
+
+The original player-level training and testing datasets are substantially larger than the other project files and are addressed separately in the data availability section below.
 
 ### Data
 
