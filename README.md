@@ -84,11 +84,26 @@ The notebooks implement:
 
 ### Reproducing the Analysis
 
-To inspect the implementation, open the Jupyter notebooks included in this repository.
+The main source code is provided in the two Jupyter notebooks:
 
-The HTML and PDF versions are also provided for convenient inspection of the implemented workflow and results.
+- `Predicting The Pitch using Median Imputation.ipynb`
+- `Predicting The Pitch using KNN imputation.ipynb`
 
-The original project datasets should be placed in the appropriate working directory before running the notebooks. File paths may need to be adjusted depending on the local environment.
+The notebooks contain the complete preprocessing, missing-data imputation, model training and evaluation workflow used in the project.
+
+To inspect the code without running the analysis, the corresponding HTML and PDF versions of both notebooks are also provided.
+
+To run the analysis, the required project datasets should be available in the working environment and the file paths in the notebooks may need to be adjusted to match the local directory structure.
+
+The analysis uses the following modelling approaches:
+
+1. Multinomial Logistic Regression
+2. Decision Tree
+3. Random Forest
+4. XGBoost
+5. Multilayer Perceptron (MLP)
+
+The two notebooks allow the results obtained using median imputation and KNN imputation to be compared across these five models.
 
 ### Dissertation
 
