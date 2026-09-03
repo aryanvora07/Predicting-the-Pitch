@@ -53,11 +53,21 @@ The original player-level training and testing datasets are substantially larger
 
 ### Data
 
-The project uses team-level and player-level football data.
+The project uses team-level and player-level football data. The datasets contain historical team and player information used to construct the match-level modelling dataset.
 
-The player-level training and testing datasets are substantially larger than the other project files and are not currently included in this repository because of their file size.
+The following team-level training and testing datasets and target files are included in this repository:
 
-The notebooks require the original project datasets to reproduce the complete preprocessing, missing-data imputation, and modelling workflow described in the dissertation.
+- Home-team training data
+- Away-team training data
+- Home-team testing data
+- Away-team testing data
+- Training and testing target data
+
+The player-level training and testing datasets are substantially larger than the other project files and are therefore not included in the repository at present because of their file size.
+
+These player-level datasets were used in the original analysis and are required to reproduce the complete preprocessing, aggregation, missing-data imputation and modelling workflow described in the dissertation.
+
+The notebooks document the processing steps applied to the player-level data, including aggregation of player-level observations to the match level.
 
 ### Software and Methods
 
